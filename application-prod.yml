@@ -4,3 +4,11 @@
         git:
           uri: https://github.com/kasuarali/microservice-tutorial-config
           clone-on-start: true
+  Eureka:
+    instance:
+      prefer-ip-address: true
+    client:
+      fetch-registry: true
+      register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
