@@ -1,1 +1,6 @@
-
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kasuarali/microservice-tutorial-config
+          clone-on-start: true
